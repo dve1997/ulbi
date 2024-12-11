@@ -1,0 +1,25 @@
+@import 'node_modules/normalize-scss/sass/normalize/import-now';
+@import './global//variables.scss';
+@import './theme/dark.scss';
+@import './theme/light.scss';
+
+.wrapper {
+  font-size: var(--font-size-s);
+  line-height: var(--font-line-s);
+  font-family: var(--font-family-main);
+}
+
+.dark {
+  color: var(--font-color);
+  background-color: var(--bg-color);
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  gap: 0.625rem;
+  padding: 1%;
+}
+
+.btnSwTheme {
+}
